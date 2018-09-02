@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> page trial 01</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <script>
+    // double-clicked
+    function ondblclickevt(evt,t){
+      alert(t.innerHTML);
+    }
+  </script>
+</head>
+<body style='background-color: lightblue;'>
+  <h1 id="heading"></h1>
+  <ul id="navigation">
+    <li><a href="home.html">Home </a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contacts</a><li>
+    <li><a href="engage.html">Engage</a></li>
+  </ul>
+
+  <div class="aboutme">
+      <p ondblclick="ondblclickevt(event,this);">
+        <div style="background: url('images/minion.jpg');width:170%;height:100vh;background-position:center;"></div>
+          story goes on and on...
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      </p>
+  </div>
+
+
+   <script src="scripts/main.js"></script>
+
+</body>
+</html>

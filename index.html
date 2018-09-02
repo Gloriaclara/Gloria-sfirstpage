@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gloria</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <script>
+    function bigImg(x) {
+        x.style.height = "64px";
+        x.style.width = "64px";
+    }
+
+    function normalImg(x) {
+        x.style.height = "32px";
+        x.style.width = "32px";
+    }
+
+    // change background
+    function changeBackground(){
+      document.body.style.backgroundColor = "black";
+    }
+  </script>
+</head>
+<body>
+  <h1 id="heading"></h1>
+  <ul id="navigation">
+    <li><a href="home.html">Home </a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contacts</a><li>
+    <li><a href="engage.html">Engage</a></li>
+  </ul>
+
+  <h2>tre bien</h2>
+  <h4>habit nae enrtue paor</h4>
+    <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </strong></p>
+
+
+    <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+   </ul>
+
+
+   <div class="row">
+      <img src="images/bro.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" id="image" alt="sessions"/>
+      <img src="images/cheko.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" id="image" alt="mike"/>
+      <img src="images/mike.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" id="image" alt="mike"/>
+   </div>
+
+   <button type="button" onclick="changeBackground()">Background</button>
+
+
+   <script src="scripts/main.js"></script>
+
+</body>
+</html>
